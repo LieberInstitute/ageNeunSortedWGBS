@@ -18,7 +18,7 @@ export _JAVA_OPTIONS="-Xms8g -Xmx10g"
 
 nextflow $base_dir/code/01-run_BiocMAP/BiocMAP/first_half.nf \
     --annotation "${ann_dir}" \
-    -input "${base_dir}/processed-data/01-run_BiocMAP" \
+    --input "${base_dir}/processed-data/01-run_BiocMAP" \
     --output "${base_dir}/processed-data/01-run_BiocMAP/pipeline_output" \
     -w "${base_dir}/processed-data/01-run_BiocMAP/work" \
     --sample "paired" \
@@ -26,4 +26,5 @@ nextflow $base_dir/code/01-run_BiocMAP/BiocMAP/first_half.nf \
     --trim_mode "force" \
     --with_lambda \
     -with-report "${base_dir}/processed-data/01-run_BiocMAP/02-run_first_half_report.html" \
-    -profile first_half_jhpce
+    -profile first_half_jhpce \
+    -resume
