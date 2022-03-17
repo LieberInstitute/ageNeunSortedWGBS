@@ -1,0 +1,2705 @@
+Loading LIBD module for nextflow/20.01.0
+## To deal with running nextflow without requesting much more memory check
+https://jhpce.jhu.edu/question/why-do-i-get-memory-errors-when-running-java/.
+You might want to use something like: export _JAVA_OPTIONS="-Xms5g -Xmx6g"
+Picked up _JAVA_OPTIONS: -Xms8g -Xmx10g
+Picked up _JAVA_OPTIONS: -Xms8g -Xmx10g
+N E X T F L O W  ~  version 20.01.0
+Launching `/dcs04/lieber/lcolladotor/ageNeunSortedWGBS_LIBD001/ageNeunSortedWGBS/code/01-run_BiocMAP/BiocMAP/second_half.nf` [scruffy_stallman] - revision: cf5c2e6343
+==================================
+WGBS Pipeline- Second Half
+==================================
+Sample              : paired
+Reference           : hg38
+Annotation dir      : /dcl01/lieber/ajaffe/Nick/dev/BiocMAP/ref
+Annotation release  : 34
+Annotation build    : main
+Input dir           : /dcs04/lieber/lcolladotor/ageNeunSortedWGBS_LIBD001/ageNeunSortedWGBS/processed-data/01-run_BiocMAP/pipeline_output
+Output dir          : /dcs04/lieber/lcolladotor/ageNeunSortedWGBS_LIBD001/ageNeunSortedWGBS/processed-data/01-run_BiocMAP/pipeline_output
+Working dir         : /dcs04/lieber/lcolladotor/ageNeunSortedWGBS_LIBD001/ageNeunSortedWGBS/processed-data/01-run_BiocMAP/work
+Use BME             : false
+Has lambda spike-ins: true
+Current user        : neagles
+===========================================
+[-        ] process > PullReference -
+
+[-        ] process > PullReference    -
+[-        ] process > PrepareReference -
+[-        ] process > PrepareLambda    -
+
+[skipped  ] process > PullReference    [100%] 1 of 1, stored: 1
+[-        ] process > PrepareReference -
+[-        ] process > PrepareLambda    -
+[skipping] Stored process > PullReference
+
+[skipped  ] process > PullReference    [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference [100%] 1 of 1, stored: 1 ✔
+[-        ] process > PrepareLambda    -
+[-        ] process > PreprocessInputs -
+[-        ] process > LambdaPseudo     -
+[skipping] Stored process > PullReference
+[skipping] Stored process > PrepareReference
+
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[-        ] process > PreprocessInputs      -
+[-        ] process > LambdaPseudo          -
+[-        ] process > MethylationExtraction -
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+[skipping] Stored process > PullReference
+[skipping] Stored process > PrepareReference
+[skipping] Stored process > PrepareLambda
+
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[-        ] process > PreprocessInputs      [  0%] 0 of 1
+[-        ] process > LambdaPseudo          -
+[-        ] process > MethylationExtraction -
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+[skipping] Stored process > PullReference
+[skipping] Stored process > PrepareReference
+[skipping] Stored process > PrepareLambda
+
+executor >  sge (1)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[-        ] process > PreprocessInputs      [  0%] 0 of 1
+[-        ] process > LambdaPseudo          -
+[-        ] process > MethylationExtraction -
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+[skipping] Stored process > PullReference
+[skipping] Stored process > PrepareReference
+[skipping] Stored process > PrepareLambda
+
+executor >  sge (1)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [  0%] 0 of 1
+[-        ] process > LambdaPseudo          -
+[-        ] process > MethylationExtraction -
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+[skipping] Stored process > PullReference
+[skipping] Stored process > PrepareReference
+[skipping] Stored process > PrepareLambda
+
+executor >  sge (1)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [  0%] 0 of 1
+[-        ] process > LambdaPseudo          -
+[-        ] process > MethylationExtraction -
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+[skipping] Stored process > PullReference
+[skipping] Stored process > PrepareReference
+[skipping] Stored process > PrepareLambda
+
+executor >  sge (1)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[-        ] process > LambdaPseudo          -
+[-        ] process > MethylationExtraction -
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+
+
+
+executor >  sge (1)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[-        ] process > LambdaPseudo          [  0%] 0 of 9
+[-        ] process > MethylationExtraction [  0%] 0 of 13
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+
+
+
+executor >  sge (3)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ef/90c8e9] process > LambdaPseudo          [  0%] 0 of 20
+[14/4d431f] process > MethylationExtraction [  0%] 0 of 30
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (3)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ef/90c8e9] process > LambdaPseudo          [  0%] 0 of 32
+[14/4d431f] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (4)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ef/90c8e9] process > LambdaPseudo          [  0%] 0 of 32
+[eb/af969a] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (5)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fd/464816] process > LambdaPseudo          [  0%] 0 of 32
+[eb/af969a] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (6)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2e/e49640] process > LambdaPseudo          [  0%] 0 of 32
+[eb/af969a] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (6)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[a8/7ba377] process > LambdaPseudo          [  0%] 0 of 32
+[eb/af969a] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (7)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[a8/7ba377] process > LambdaPseudo          [  0%] 0 of 32
+[eb/af969a] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (8)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[a8/7ba377] process > LambdaPseudo          [  0%] 0 of 32
+[45/f22556] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (9)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[a8/7ba377] process > LambdaPseudo          [  0%] 0 of 32
+[e9/4500fb] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (10)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[cc/c8ae62] process > LambdaPseudo          [  0%] 0 of 32
+[e9/4500fb] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (11)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[cc/c8ae62] process > LambdaPseudo          [  0%] 0 of 32
+[b8/caa8d2] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (12)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[0c/b568a5] process > LambdaPseudo          [  0%] 0 of 32
+[b8/caa8d2] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (13)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ca/da72a1] process > LambdaPseudo          [  0%] 0 of 32
+[b8/caa8d2] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (14)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [  0%] 0 of 32
+[b8/caa8d2] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (15)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [  0%] 0 of 32
+[5d/44d12a] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (16)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [  0%] 0 of 32
+[bc/7acb79] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (17)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [  0%] 0 of 32
+[61/0259ed] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (18)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [  0%] 0 of 32
+[7b/eed361] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (19)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [  0%] 0 of 32
+[f5/1a3417] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (20)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [  0%] 0 of 32
+[4f/4d4fd8] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (21)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8e/233a82] process > LambdaPseudo          [  0%] 0 of 32
+[4f/4d4fd8] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (22)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8e/233a82] process > LambdaPseudo          [  0%] 0 of 32
+[82/162636] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (23)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8e/233a82] process > LambdaPseudo          [  0%] 0 of 32
+[d2/94e464] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (24)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8e/233a82] process > LambdaPseudo          [  0%] 0 of 32
+[5d/88ea88] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (25)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8e/233a82] process > LambdaPseudo          [  0%] 0 of 32
+[ee/a497a4] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (26)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[65/e5b8f8] process > LambdaPseudo          [  0%] 0 of 32
+[ee/a497a4] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (27)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[65/e5b8f8] process > LambdaPseudo          [  0%] 0 of 32
+[2a/441d44] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (28)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[65/e5b8f8] process > LambdaPseudo          [  0%] 0 of 32
+[0b/b0c7cb] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (29)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[77/611d79] process > LambdaPseudo          [  0%] 0 of 32
+[0b/b0c7cb] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (30)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f5/5070d0] process > LambdaPseudo          [  0%] 0 of 32
+[0b/b0c7cb] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (31)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f5/5070d0] process > LambdaPseudo          [  0%] 0 of 32
+[9d/06545d] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (32)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f5/5070d0] process > LambdaPseudo          [  0%] 0 of 32
+[72/6f670f] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (33)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f5/5070d0] process > LambdaPseudo          [  0%] 0 of 32
+[61/6462b0] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (34)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f5/5070d0] process > LambdaPseudo          [  0%] 0 of 32
+[32/0e677b] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (35)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ac/3b63d5] process > LambdaPseudo          [  0%] 0 of 32
+[32/0e677b] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (36)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ed/29cbd4] process > LambdaPseudo          [  0%] 0 of 32
+[32/0e677b] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (36)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ed/29cbd4] process > LambdaPseudo          [  0%] 0 of 32
+[32/0e677b] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (36)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ed/29cbd4] process > LambdaPseudo          [  0%] 0 of 32
+[32/0e677b] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (37)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fa/ec0acc] process > LambdaPseudo          [  0%] 0 of 32
+[32/0e677b] process > MethylationExtraction [  0%] 0 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (37)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fa/ec0acc] process > LambdaPseudo          [  0%] 0 of 32
+[45/f22556] process > MethylationExtraction [  3%] 1 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (37)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fa/ec0acc] process > LambdaPseudo          [  0%] 0 of 32
+[45/f22556] process > MethylationExtraction [  3%] 1 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (38)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fa/ec0acc] process > LambdaPseudo          [  0%] 0 of 32
+[71/363e79] process > MethylationExtraction [  3%] 1 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (38)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fa/ec0acc] process > LambdaPseudo          [  0%] 0 of 32
+[5d/44d12a] process > MethylationExtraction [  6%] 2 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (39)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fa/ec0acc] process > LambdaPseudo          [  0%] 0 of 32
+[3b/08450e] process > MethylationExtraction [  6%] 2 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (39)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fa/ec0acc] process > LambdaPseudo          [  0%] 0 of 32
+[e9/4500fb] process > MethylationExtraction [  9%] 3 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (39)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fa/ec0acc] process > LambdaPseudo          [  0%] 0 of 32
+[e9/4500fb] process > MethylationExtraction [  9%] 3 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (40)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[e9/4500fb] process > MethylationExtraction [  9%] 3 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (40)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[61/6462b0] process > MethylationExtraction [ 13%] 4 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (40)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[61/6462b0] process > MethylationExtraction [ 13%] 4 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (41)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[c9/e16d82] process > MethylationExtraction [ 13%] 4 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (41)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[5d/88ea88] process > MethylationExtraction [ 16%] 5 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (41)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[5d/88ea88] process > MethylationExtraction [ 16%] 5 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (42)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[bb/3e0e46] process > MethylationExtraction [ 16%] 5 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (42)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[4f/4d4fd8] process > MethylationExtraction [ 19%] 6 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (43)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[50/19a8ae] process > MethylationExtraction [ 19%] 6 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (43)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[7b/eed361] process > MethylationExtraction [ 22%] 7 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (43)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [  0%] 0 of 32
+[7b/eed361] process > MethylationExtraction [ 22%] 7 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (44)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[7c/2dd6ec] process > LambdaPseudo          [  3%] 1 of 32
+[7b/eed361] process > MethylationExtraction [ 22%] 7 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (44)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[7c/2dd6ec] process > LambdaPseudo          [  3%] 1 of 32
+[7b/eed361] process > MethylationExtraction [ 22%] 7 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (45)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [  3%] 1 of 32
+[7b/eed361] process > MethylationExtraction [ 22%] 7 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (45)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [  3%] 1 of 32
+[82/162636] process > MethylationExtraction [ 25%] 8 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (45)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [  3%] 1 of 32
+[82/162636] process > MethylationExtraction [ 25%] 8 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (46)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [  3%] 1 of 32
+[0c/bee1c5] process > MethylationExtraction [ 25%] 8 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (46)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [  3%] 1 of 32
+[32/0e677b] process > MethylationExtraction [ 28%] 9 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (46)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [  3%] 1 of 32
+[32/0e677b] process > MethylationExtraction [ 28%] 9 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (47)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[96/72647f] process > LambdaPseudo          [  3%] 1 of 32
+[32/0e677b] process > MethylationExtraction [ 28%] 9 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (47)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[96/72647f] process > LambdaPseudo          [  3%] 1 of 32
+[bc/7acb79] process > MethylationExtraction [ 31%] 10 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (47)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[96/72647f] process > LambdaPseudo          [  3%] 1 of 32
+[bc/7acb79] process > MethylationExtraction [ 31%] 10 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (47)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fd/464816] process > LambdaPseudo          [  6%] 2 of 32
+[bc/7acb79] process > MethylationExtraction [ 31%] 10 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (48)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fd/464816] process > LambdaPseudo          [  6%] 2 of 32
+[39/4a933f] process > MethylationExtraction [ 31%] 10 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (48)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fd/464816] process > LambdaPseudo          [  6%] 2 of 32
+[39/4a933f] process > MethylationExtraction [ 31%] 10 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (49)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fd/464816] process > LambdaPseudo          [  6%] 2 of 32
+[07/07d95e] process > MethylationExtraction [ 31%] 10 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (49)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fd/464816] process > LambdaPseudo          [  6%] 2 of 32
+[14/4d431f] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (50)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ac/3b63d5] process > LambdaPseudo          [  9%] 3 of 32
+[a2/652a14] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (50)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ac/3b63d5] process > LambdaPseudo          [  9%] 3 of 32
+[a2/652a14] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (50)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ed/29cbd4] process > LambdaPseudo          [ 13%] 4 of 32
+[a2/652a14] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (51)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[39/83280d] process > LambdaPseudo          [ 13%] 4 of 32
+[a2/652a14] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (51)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[39/83280d] process > LambdaPseudo          [ 13%] 4 of 32
+[a2/652a14] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (52)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[68/73f93d] process > LambdaPseudo          [ 16%] 5 of 32
+[a2/652a14] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (52)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[68/73f93d] process > LambdaPseudo          [ 16%] 5 of 32
+[a2/652a14] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (52)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[0c/b568a5] process > LambdaPseudo          [ 19%] 6 of 32
+[a2/652a14] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (53)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[0c/b568a5] process > LambdaPseudo          [ 19%] 6 of 32
+[c2/a5a48b] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (53)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[0c/b568a5] process > LambdaPseudo          [ 19%] 6 of 32
+[c2/a5a48b] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (54)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[d4/0b8e92] process > LambdaPseudo          [ 22%] 7 of 32
+[c2/a5a48b] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (54)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[d4/0b8e92] process > LambdaPseudo          [ 22%] 7 of 32
+[c2/a5a48b] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (54)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8e/233a82] process > LambdaPseudo          [ 25%] 8 of 32
+[c2/a5a48b] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (55)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8e/233a82] process > LambdaPseudo          [ 25%] 8 of 32
+[31/6c712a] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (55)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8e/233a82] process > LambdaPseudo          [ 25%] 8 of 32
+[31/6c712a] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (55)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f5/5070d0] process > LambdaPseudo          [ 28%] 9 of 32
+[31/6c712a] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (56)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [ 28%] 9 of 32
+[31/6c712a] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (56)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [ 28%] 9 of 32
+[31/6c712a] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (57)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[e0/3949e8] process > LambdaPseudo          [ 31%] 10 of 32
+[31/6c712a] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (57)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[e0/3949e8] process > LambdaPseudo          [ 31%] 10 of 32
+[31/6c712a] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (58)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5f/fc7fc2] process > LambdaPseudo          [ 31%] 10 of 32
+[31/6c712a] process > MethylationExtraction [ 34%] 11 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (58)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5f/fc7fc2] process > LambdaPseudo          [ 31%] 10 of 32
+[71/363e79] process > MethylationExtraction [ 38%] 12 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (59)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[a8/c0509b] process > LambdaPseudo          [ 31%] 10 of 32
+[71/363e79] process > MethylationExtraction [ 38%] 12 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (59)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[a8/c0509b] process > LambdaPseudo          [ 31%] 10 of 32
+[3b/08450e] process > MethylationExtraction [ 41%] 13 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (60)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f0/a6bd2d] process > LambdaPseudo          [ 31%] 10 of 32
+[3b/08450e] process > MethylationExtraction [ 41%] 13 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (60)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f0/a6bd2d] process > LambdaPseudo          [ 31%] 10 of 32
+[bb/3e0e46] process > MethylationExtraction [ 44%] 14 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (60)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f0/a6bd2d] process > LambdaPseudo          [ 31%] 10 of 32
+[bb/3e0e46] process > MethylationExtraction [ 44%] 14 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (61)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5b/82cbe3] process > LambdaPseudo          [ 31%] 10 of 32
+[bb/3e0e46] process > MethylationExtraction [ 44%] 14 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (61)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5b/82cbe3] process > LambdaPseudo          [ 31%] 10 of 32
+[50/19a8ae] process > MethylationExtraction [ 47%] 15 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (61)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5b/82cbe3] process > LambdaPseudo          [ 31%] 10 of 32
+[50/19a8ae] process > MethylationExtraction [ 47%] 15 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (62)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[7c/82f870] process > LambdaPseudo          [ 31%] 10 of 32
+[50/19a8ae] process > MethylationExtraction [ 47%] 15 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (62)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[7c/82f870] process > LambdaPseudo          [ 31%] 10 of 32
+[c9/e16d82] process > MethylationExtraction [ 50%] 16 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (62)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[7c/82f870] process > LambdaPseudo          [ 31%] 10 of 32
+[c9/e16d82] process > MethylationExtraction [ 50%] 16 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (63)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5e/670415] process > LambdaPseudo          [ 31%] 10 of 32
+[c9/e16d82] process > MethylationExtraction [ 50%] 16 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (63)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5e/670415] process > LambdaPseudo          [ 31%] 10 of 32
+[39/4a933f] process > MethylationExtraction [ 53%] 17 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (63)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5e/670415] process > LambdaPseudo          [ 31%] 10 of 32
+[39/4a933f] process > MethylationExtraction [ 53%] 17 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (64)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[e0/819e7f] process > LambdaPseudo          [ 31%] 10 of 32
+[39/4a933f] process > MethylationExtraction [ 53%] 17 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (64)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[e0/819e7f] process > LambdaPseudo          [ 31%] 10 of 32
+[0c/bee1c5] process > MethylationExtraction [ 56%] 18 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (64)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[e0/819e7f] process > LambdaPseudo          [ 31%] 10 of 32
+[0c/bee1c5] process > MethylationExtraction [ 56%] 18 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (64)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2e/e49640] process > LambdaPseudo          [ 34%] 11 of 32
+[0c/bee1c5] process > MethylationExtraction [ 56%] 18 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 34%] 11 of 32
+[0c/bee1c5] process > MethylationExtraction [ 56%] 18 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 34%] 11 of 32
+[0c/bee1c5] process > MethylationExtraction [ 56%] 18 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 34%] 11 of 32
+[f5/1a3417] process > MethylationExtraction [ 59%] 19 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[96/72647f] process > LambdaPseudo          [ 38%] 12 of 32
+[f5/1a3417] process > MethylationExtraction [ 59%] 19 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[96/72647f] process > LambdaPseudo          [ 38%] 12 of 32
+[07/07d95e] process > MethylationExtraction [ 63%] 20 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[ca/da72a1] process > LambdaPseudo          [ 41%] 13 of 32
+[07/07d95e] process > MethylationExtraction [ 63%] 20 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fa/ec0acc] process > LambdaPseudo          [ 44%] 14 of 32
+[07/07d95e] process > MethylationExtraction [ 63%] 20 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [ 47%] 15 of 32
+[07/07d95e] process > MethylationExtraction [ 63%] 20 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[2f/745e9e] process > LambdaPseudo          [ 47%] 15 of 32
+[c2/a5a48b] process > MethylationExtraction [ 66%] 21 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[7c/2dd6ec] process > LambdaPseudo          [ 50%] 16 of 32
+[c2/a5a48b] process > MethylationExtraction [ 66%] 21 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[c2/a5a48b] process > MethylationExtraction [ 66%] 21 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[a2/652a14] process > MethylationExtraction [ 69%] 22 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[31/6c712a] process > MethylationExtraction [ 72%] 23 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[b8/caa8d2] process > MethylationExtraction [ 75%] 24 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[eb/af969a] process > MethylationExtraction [ 78%] 25 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[61/0259ed] process > MethylationExtraction [ 81%] 26 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[72/6f670f] process > MethylationExtraction [ 84%] 27 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[ee/a497a4] process > MethylationExtraction [ 88%] 28 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[0b/b0c7cb] process > MethylationExtraction [ 91%] 29 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[9d/06545d] process > MethylationExtraction [ 94%] 30 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[d2/94e464] process > MethylationExtraction [ 97%] 31 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      -
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      [  0%] 0 of 2
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (65)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[-        ] process > FormBsseqObjects      [  0%] 0 of 5
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (66)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [  0%] 0 of 7
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (66)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [  0%] 0 of 14
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (67)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[3b/4eb086] process > FormBsseqObjects      [  0%] 0 of 15
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (70)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[89/6b6c39] process > FormBsseqObjects      [  0%] 0 of 20
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (70)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[89/6b6c39] process > FormBsseqObjects      [  0%] 0 of 24
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (70)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[89/6b6c39] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (71)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[94/3962e6] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (74)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[87/87d21d] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (75)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[98/df6623] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (76)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[98/df6623] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (76)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/2ced67] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (77)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[16/f50ec0] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (78)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[7e/e21147] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (80)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[5a/127d31] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (81)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[2d/1037b2] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (82)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[66/836611] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (82)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[66/836611] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (83)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[9e/773cc9] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (84)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[29/1550aa] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (85)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[b6/cb1f9c] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (85)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[b6/cb1f9c] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (85)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[fc/03ddbb] process > LambdaPseudo          [ 53%] 17 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[b6/cb1f9c] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (86)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[68/73f93d] process > LambdaPseudo          [ 56%] 18 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[25/72c555] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (86)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5f/fc7fc2] process > LambdaPseudo          [ 59%] 19 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[25/72c555] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (87)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5f/fc7fc2] process > LambdaPseudo          [ 59%] 19 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[65/3a8cc8] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (88)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[39/83280d] process > LambdaPseudo          [ 63%] 20 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[bc/228e0c] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (89)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[77/611d79] process > LambdaPseudo          [ 66%] 21 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[22/a6eed1] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (89)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[77/611d79] process > LambdaPseudo          [ 66%] 21 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[22/a6eed1] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (89)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[77/611d79] process > LambdaPseudo          [ 66%] 21 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[22/a6eed1] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (89)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f0/a6bd2d] process > LambdaPseudo          [ 69%] 22 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[22/a6eed1] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f0/a6bd2d] process > LambdaPseudo          [ 69%] 22 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[be/fd63cf] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[f0/a6bd2d] process > LambdaPseudo          [ 69%] 22 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[be/fd63cf] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[d4/0b8e92] process > LambdaPseudo          [ 72%] 23 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[be/fd63cf] process > FormBsseqObjects      [  0%] 0 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[d4/0b8e92] process > LambdaPseudo          [ 72%] 23 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[43/e7f52c] process > FormBsseqObjects      [  4%] 1 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[d4/0b8e92] process > LambdaPseudo          [ 72%] 23 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[43/e7f52c] process > FormBsseqObjects      [  4%] 1 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[d4/0b8e92] process > LambdaPseudo          [ 72%] 23 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[af/455518] process > FormBsseqObjects      [  8%] 2 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[d4/0b8e92] process > LambdaPseudo          [ 72%] 23 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[af/455518] process > FormBsseqObjects      [  8%] 2 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[d4/0b8e92] process > LambdaPseudo          [ 72%] 23 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[94/3962e6] process > FormBsseqObjects      [ 12%] 3 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[7c/82f870] process > LambdaPseudo          [ 75%] 24 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[94/3962e6] process > FormBsseqObjects      [ 12%] 3 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [ 78%] 25 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[94/3962e6] process > FormBsseqObjects      [ 12%] 3 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [ 78%] 25 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[94/3962e6] process > FormBsseqObjects      [ 12%] 3 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [ 78%] 25 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[94/3962e6] process > FormBsseqObjects      [ 12%] 3 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [ 78%] 25 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[fe/42affc] process > FormBsseqObjects      [ 16%] 4 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [ 78%] 25 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[fe/42affc] process > FormBsseqObjects      [ 16%] 4 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [ 78%] 25 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [ 20%] 5 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[8a/91b3d6] process > LambdaPseudo          [ 78%] 25 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [ 20%] 5 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[a8/c0509b] process > LambdaPseudo          [ 81%] 26 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [ 20%] 5 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5b/82cbe3] process > LambdaPseudo          [ 84%] 27 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [ 20%] 5 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5b/82cbe3] process > LambdaPseudo          [ 84%] 27 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [ 20%] 5 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[5e/670415] process > LambdaPseudo          [ 88%] 28 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [ 20%] 5 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[e0/819e7f] process > LambdaPseudo          [ 91%] 29 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [ 20%] 5 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [ 20%] 5 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[e5/065d62] process > FormBsseqObjects      [ 20%] 5 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[89/6b6c39] process > FormBsseqObjects      [ 24%] 6 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[89/6b6c39] process > FormBsseqObjects      [ 24%] 6 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[07/efa79b] process > FormBsseqObjects      [ 28%] 7 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[07/efa79b] process > FormBsseqObjects      [ 28%] 7 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[98/df6623] process > FormBsseqObjects      [ 32%] 8 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[87/87d21d] process > FormBsseqObjects      [ 36%] 9 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[87/87d21d] process > FormBsseqObjects      [ 36%] 9 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[87/87d21d] process > FormBsseqObjects      [ 36%] 9 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[87/87d21d] process > FormBsseqObjects      [ 36%] 9 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[7e/e21147] process > FormBsseqObjects      [ 40%] 10 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[7e/e21147] process > FormBsseqObjects      [ 40%] 10 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[d0/003272] process > FormBsseqObjects      [ 44%] 11 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[2d/1037b2] process > FormBsseqObjects      [ 48%] 12 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[2d/1037b2] process > FormBsseqObjects      [ 48%] 12 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[2d/1037b2] process > FormBsseqObjects      [ 48%] 12 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[16/f50ec0] process > FormBsseqObjects      [ 52%] 13 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[16/f50ec0] process > FormBsseqObjects      [ 52%] 13 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[22/a6eed1] process > FormBsseqObjects      [ 56%] 14 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[22/a6eed1] process > FormBsseqObjects      [ 56%] 14 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[df/2178c1] process > LambdaPseudo          [ 94%] 30 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[be/fd63cf] process > FormBsseqObjects      [ 60%] 15 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[e0/3949e8] process > LambdaPseudo          [ 97%] 31 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[be/fd63cf] process > FormBsseqObjects      [ 60%] 15 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[e0/3949e8] process > LambdaPseudo          [ 97%] 31 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[65/3a8cc8] process > FormBsseqObjects      [ 64%] 16 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[e0/3949e8] process > LambdaPseudo          [ 97%] 31 of 32
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[3b/4eb086] process > FormBsseqObjects      [ 68%] 17 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          -
+[3b/4eb086] process > FormBsseqObjects      [ 68%] 17 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (90)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[-        ] process > ParseReports          [  0%] 0 of 1
+[3b/4eb086] process > FormBsseqObjects      [ 68%] 17 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [  0%] 0 of 1
+[3b/4eb086] process > FormBsseqObjects      [ 68%] 17 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [  0%] 0 of 1
+[29/1550aa] process > FormBsseqObjects      [ 72%] 18 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [  0%] 0 of 1
+[29/1550aa] process > FormBsseqObjects      [ 72%] 18 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[29/1550aa] process > FormBsseqObjects      [ 72%] 18 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[9e/773cc9] process > FormBsseqObjects      [ 76%] 19 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[b6/cb1f9c] process > FormBsseqObjects      [ 80%] 20 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[66/836611] process > FormBsseqObjects      [ 84%] 21 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[25/72c555] process > FormBsseqObjects      [ 88%] 22 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[e5/2ced67] process > FormBsseqObjects      [ 92%] 23 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[bc/228e0c] process > FormBsseqObjects      [ 96%] 24 of 25
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (91)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[5a/127d31] process > FormBsseqObjects      [100%] 25 of 25 ✔
+[-        ] process > MergeBsseqObjects     -
+
+executor >  sge (92)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[5a/127d31] process > FormBsseqObjects      [100%] 25 of 25 ✔
+[01/7f2957] process > MergeBsseqObjects     [  0%] 0 of 2
+
+executor >  sge (93)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[5a/127d31] process > FormBsseqObjects      [100%] 25 of 25 ✔
+[81/549770] process > MergeBsseqObjects     [  0%] 0 of 2
+
+executor >  sge (93)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[5a/127d31] process > FormBsseqObjects      [100%] 25 of 25 ✔
+[81/549770] process > MergeBsseqObjects     [  0%] 0 of 2
+
+executor >  sge (93)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[5a/127d31] process > FormBsseqObjects      [100%] 25 of 25 ✔
+[81/549770] process > MergeBsseqObjects     [ 50%] 1 of 2
+
+executor >  sge (93)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[5a/127d31] process > FormBsseqObjects      [100%] 25 of 25 ✔
+[81/549770] process > MergeBsseqObjects     [ 50%] 1 of 2
+
+executor >  sge (93)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[5a/127d31] process > FormBsseqObjects      [100%] 25 of 25 ✔
+[01/7f2957] process > MergeBsseqObjects     [100%] 2 of 2 ✔
+
+executor >  sge (93)
+[skipped  ] process > PullReference         [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareReference      [100%] 1 of 1, stored: 1 ✔
+[skipped  ] process > PrepareLambda         [100%] 1 of 1, stored: 1 ✔
+[f7/f1e0f5] process > PreprocessInputs      [100%] 1 of 1 ✔
+[57/9fc5d4] process > LambdaPseudo          [100%] 32 of 32 ✔
+[2a/441d44] process > MethylationExtraction [100%] 32 of 32 ✔
+[c0/66e916] process > ParseReports          [100%] 1 of 1 ✔
+[5a/127d31] process > FormBsseqObjects      [100%] 25 of 25 ✔
+[01/7f2957] process > MergeBsseqObjects     [100%] 2 of 2 ✔
+Completed at: 16-Mar-2022 19:33:47
+Duration    : 2d 3h 15m 34s
+CPU hours   : 900.5
+Succeeded   : 93
+
