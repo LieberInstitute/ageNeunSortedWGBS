@@ -1,3 +1,4 @@
 raw-data/FASTQ
 code/01-run_BiocMAP/.nextflow*
 processed-data/01-run_BiocMAP/pipeline_output
+processed-data/01-run_BiocMAP/work
